@@ -1,0 +1,33 @@
+{
+  "aws_project_region": "us-east-2",
+  "aws_cognito_identity_pool_id": "us-east-2:0d480d1e-5af2-4190-a2c9-f4f90ca4b8c6",
+  "aws_cognito_region": "us-east-2",
+  "aws_user_pools_id": "us-east-2_NJATYSMIz",
+  "aws_user_pools_web_client_id": "7tdv43l66h5sgbrr8h7d8t0m",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OFF",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "EMAIL"
+  ],
+  "aws_cloud_logic_custom": [
+    {
+      "name": "apic3e607ca",
+      "endpoint": "https://mgrw9n8o6d.execute-api.us-east-2.amazonaws.com/dev",
+      "region": "us-east-2"
+    }
+  ],
+  "aws_user_files_s3_bucket": "fovusfrontendhosting6625d-dev",
+  "aws_user_files_s3_bucket_region": "us-east-2"
+}
